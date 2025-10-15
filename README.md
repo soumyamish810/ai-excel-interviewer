@@ -4,7 +4,7 @@ AI-Powered Excel Mock Interviewer
 This project is a sophisticated, AI-powered web application designed to automate the technical screening process for roles requiring proficiency in Microsoft Excel. Built with Streamlit and powered by the OpenAI API, this tool simulates a real interview, evaluates candidate responses, and provides comprehensive, structured feedback.
 
 🚀 Live Demo
-<< Link to Deployed Streamlit App >>
+https://ai-excel-interviewer-sm.streamlit.app/ 
 
 (Note: Replace the link above with your actual deployment URL.)
 
