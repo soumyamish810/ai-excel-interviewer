@@ -210,7 +210,7 @@ else:
     "2. An 'Overall Summary' section that provides comprehensive feedback, strengths, and areas for improvement based on all the answers.\n\n"
     "Here is the structured evaluation data for each answer:\n\n"
 )
-# END OF NEW PROMPT
+# END OF PROMPT
 
                         for i, eval_item in enumerate(st.session_state.evaluations):
                           final_feedback_prompt += f"Topic: {topics[i]}\nScore: {eval_item['score']}/5\nFeedback: {eval_item['feedback']}\nStrengths: {eval_item['strengths']}\nWeaknesses: {eval_item['weaknesses']}\n\n"
@@ -222,3 +222,4 @@ else:
                         st.markdown(final_report)
                         # Added the final report to the chat history
                         st.session_state.messages.append({"role": "assistant", "content": final_report})
+
