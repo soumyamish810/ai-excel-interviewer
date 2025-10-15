@@ -3,12 +3,12 @@
 AI-Powered Excel Mock Interviewer
 This project is a sophisticated, AI-powered web application designed to automate the technical screening process for roles requiring proficiency in Microsoft Excel. Built with Streamlit and powered by the OpenAI API, this tool simulates a real interview, evaluates candidate responses, and provides comprehensive, structured feedback.
 
-🚀 Live Demo
+Live Demo
 https://ai-excel-interviewer-sm.streamlit.app/ 
 
 (Note: Replace the link above with your actual deployment URL.)
 
-✨ Key Features
+Key Features
 Interactive Chat Interface: A clean and intuitive web-based interface where candidates can interact with "Alex," the AI interviewer.
 
 Structured Interview Flow: The interview follows a predefined sequence of questions covering five core Excel topics, ensuring a consistent and fair evaluation for every candidate.
@@ -27,7 +27,7 @@ A per-topic breakdown with a score (1-5) and specific feedback.
 
 An overall summary with identified strengths and areas for improvement.
 
-🏛️ System Architecture
+System Architecture
 The application operates on a simple yet powerful architecture designed for real-time interaction and intelligent processing.
 
 Frontend (Streamlit): The user interacts with the application through the Streamlit interface.
@@ -40,14 +40,14 @@ Evaluation Engine (GPT-4o): When a user submits an answer, it is sent to a dedic
 
 Report Generation: The collected JSON evaluations are aggregated and used to prompt the AI for a final, user-friendly report.
 
-🛠️ Technology Stack
+Technology Stack
 Core Language: Python
 
 Frontend Framework: Streamlit
 
 AI & LLMs: OpenAI API (GPT-4o & GPT-3.5-Turbo)
 
-⚙️ Setup and Installation
+Setup and Installation
 To run this project locally, follow these steps:
 
 1. Clone the Repository
@@ -80,10 +80,10 @@ streamlit run app.py
 
 The application should now be running in your web browser!
 
-🔧 Configuration & Customization
+Configuration & Customization
 The interview questions, topics, and ideal answers can be easily customized by editing the EXCEL_TOPICS_KNOWLEDGE_BASE dictionary directly in the app.py file. This allows you to tailor the interview for different roles or difficulty levels.
 
-📈 Future Roadmap
+Future Roadmap
 This Proof-of-Concept is a strong foundation. The architecture is designed for future enhancements, including:
 
 Expanding the Knowledge Base: Add more Excel topics (e.g., Power Query, Advanced Charting) and introduce difficulty levels (Beginner, Intermediate, Advanced).
